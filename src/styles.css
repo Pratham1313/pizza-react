@@ -1,0 +1,113 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem;
+  width: 100%;
+  margin: auto;
+  background-color: #1d87b9;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  opacity: 10;
+}
+
+.title {
+  text-align: center;
+  color: #006491;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 3vmax;
+  margin-top: 1rem;
+}
+
+.title_img {
+  width: 7vmax;
+}
+
+.text {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.menus {
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+main img {
+  width: 25rem;
+  aspect-ratio: 1;
+}
+
+ul li {
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  cursor: pointer;
+  margin: 1rem 3rem auto;
+  display: flex;
+  gap: 2rem;
+  width: 30%;
+  border-radius: 2rem;
+  background-color: #3289b2;
+  position: relative;
+  transition: 0.5s;
+}
+
+ul li:hover {
+  background-color: #268ab9;
+  transform: scale(105%);
+}
+
+li button {
+  background-color: rgb(237, 190, 190);
+  width: 80%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.25rem black;
+  margin-top: 8rem;
+}
+
+li button:hover {
+  background-color: rgb(247, 132, 132);
+}
+
+ul {
+  padding: 3rem;
+  display: flex;
+  gap: 10rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+li img {
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(0, 0, 0);
+}
+
+.pizzasold_out img {
+  filter: grayscale(1);
+}
+
+ul li h3 {
+  font-size: 3rem;
+  font-weight: 650;
+}
